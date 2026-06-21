@@ -1,0 +1,142 @@
+.body{
+     background-color: #07424f;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    justify-content: flex-end;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #070c33;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height:96px ;
+}
+.navbar .heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px 20px;
+    display: flex;
+    margin-right: auto;
+    justify-content: flex-start;
+}
+.nav-link{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.first{
+    margin-top: 150px;
+    margin-left: 383px;
+    align-items: center;
+    position: absolute;
+    margin-right: 326px;
+}
+.text{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    width:50%;
+    animation: fadeUp 2s ease-in-out;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.developer{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #2bacede5 ;
+    line-height: 1.6;
+    display: flex;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    height:383px ;
+    width:276px ;
+    position: relative;
+    animation: fadeUp 2s ease-in-out;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.photo img:first-child{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.photo img:last-child{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.combine{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.photo{
+    margin-left: auto;
+}
+.hello{
+    align-items: center;
+    font-size: -webkit-xxx-large;
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: #b2b2c1;
+    transform: translateY(-2px);
+}
+
+.button{
+    border: #ffffff;
+    padding: 12px;
+    font-size: medium;
+    font-family: revert-rule;
+    font-weight: bold;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+
+}
